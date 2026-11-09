@@ -1,0 +1,24 @@
+{
+  "name": "pi-clipboard",
+  "version": "0.1.0",
+  "description": "Pi extension: press F3 to copy the last assistant response to the clipboard",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "clipboard",
+    "copy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhenriq/pi-clipboard.git"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
